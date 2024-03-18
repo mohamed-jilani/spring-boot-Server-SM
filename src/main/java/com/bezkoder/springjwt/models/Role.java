@@ -1,10 +1,16 @@
 package com.bezkoder.springjwt.models;
 
 import com.bezkoder.springjwt.models.enums.ERole;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 
 @Entity
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
 @Table(name = "roles")
 public class Role {
 	@Id
@@ -15,9 +21,6 @@ public class Role {
 	@Column(length = 20)
 	private ERole name;
 
-	public Role() {
-
-	}
 
 	public Role(ERole name) {
 		this.name = name;
