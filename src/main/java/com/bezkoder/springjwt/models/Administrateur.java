@@ -14,7 +14,7 @@ import javax.persistence.Table;
 @Table(	name = "Administrateurs")
 @Getter
 @Setter
-public class Administrateur extends User {
+public class Administrateur extends Utilisateur {
 
     private float salaire;
 

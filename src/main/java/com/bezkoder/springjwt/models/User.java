@@ -31,25 +31,6 @@ public class User extends AbstractEntity{
 	@Size(max = 255)
 	private String username;
 
-	@Null
-	@Size(max = 255)
-	private String nom;
-
-	@Null
-	@Size(max = 255)
-	private String prenom;
-
-	@Null
-	private Long tel;
-
-	@Null
-	@Size(max = 255)
-	private String adresse;
-
-
-	@Null
-	private Long cin;
-
 
 	@Setter
 	@Getter

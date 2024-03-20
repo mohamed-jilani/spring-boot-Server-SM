@@ -12,7 +12,7 @@ import javax.persistence.Table;
 @Table(	name = "EmployeHoraires")
 @Getter
 @Setter
-public class EmployeHoraire extends User{
+public class EmployeHoraire extends Utilisateur{
     private int nombreHT;
     private float coutHoraire;
 }

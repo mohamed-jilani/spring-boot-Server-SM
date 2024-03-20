@@ -12,6 +12,6 @@ import javax.persistence.Table;
 @AllArgsConstructor
 @Entity
 @Table(	name = "Responsables")
-public class Responsable extends User {
+public class Responsable extends Utilisateur {
     private float salaire;
 }
